@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "outDir": "./dist", 
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "declaration": true,
+      "jsx": "react",
+      "sourceMap": true
+    },
+    "include": [
+      "*.ts", "routes/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
